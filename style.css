@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-bottom: 25px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+
+    width: 100%;
+
+    background-color: #A23645;
+}
+.header__container {
+    margin: 0 auto;
+
+    width: 90%;
+}
+.logo {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+
+    margin-left: 115px;
+
+    list-style: none;
+}
+.menu__link {
+    display: block;
+
+    padding: 25px 15px;
+    transition: all .5s;
+
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.menu__link:hover {
+    background-color: #912F3C;
+}
+.container {
+    margin-left: 75px;
+    width: 80%;
+}
+.section-content {
+    padding-top: 85px;
+}
+.section-content__wrapper {
+    display: flex;
+}
+.section-content__item:first-child {
+    margin-right: 35px;
+
+    max-width: 6700px;
+}
+.section-content__item:first-child p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.section-content__item:last-child {
+    padding: 25px;
+
+    width: min-content;
+    height: min-content;
+
+    background-color: #E7E7E7;
+}
+.section-content__title {
+    padding-bottom: 15px;
+}
+.section-content__article {
+    margin-top: 10px;
+}
+.section-content__img {
+    width: 310px;
+}
+.info {
+    margin-top: 20px;
+}
+.info__item {
+    display: flex;
+}
+.info__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+.info__item p:first-child {
+    min-width: 85px;
+
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.section-similar-authors__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-transform: capitalize;
+}
+.section-similar-authors__about {
+    display: inline-flex;
+
+    padding: 25px;
+
+    border: 1px solid #A8A8A8;
+}
+.section-similar-authors__item:not(:last-child) {
+    margin-right: 25px;
+}
+.section-similar-authors__wrapper {
+    max-width: 165px;
+    max-height: 160px;
+    overflow: hidden;
+
+    background-color: #000;
+}
+.section-similar-authors__link {
+    color: #000;
+
+    text-decoration: none;
+}
+.section-similar-authors__link:hover img {
+    opacity: 0.6;
+}
+.section-similar-authors__link img {
+    width: 100%;
+    transition: all .5s;
+}
+.section-similar-authors__name {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
